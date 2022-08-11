@@ -1,4 +1,4 @@
-# JSON++
+# JSON++ (V0.0.1)
 
 An esoteric programming language entirely based on json files.
 
