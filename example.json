@@ -1,0 +1,19 @@
+{
+    "print": "First print",
+    "for": {
+        "i": {
+            "$start": 0,
+            "$iterate": 1,
+            "$end": 10
+        },
+        "do": {
+            "sum": {
+                "v": [
+                    "$count",
+                    "$end"
+                ],
+                "f": "print"
+            }
+        }
+    }
+}
